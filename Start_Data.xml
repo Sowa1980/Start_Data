@@ -10,7 +10,7 @@
   version="0.2_2020-04.10">
                     
   <group name="Annotation">
-    <item name="Даты" type="node,closedway,multipolygon" preset_name_label="true" icon="Data32.png">
+    <item name="Даты" type="node,closedway,multipolygon" preset_name_label="true" icon="Data32.svg">
       <space/>
       <text key="start_date" text="общий тег не имеющий конкретики" match="key"/>
       <text key="sanctified_date" text="освящения" match="key"/>
