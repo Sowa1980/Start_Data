@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
   link="https://wiki.openstreetmap.org/wiki/RU:Key:start_date"
-  icon="Data16.png"
+  icon="Data32.svg"
   description="Start_Data"
   ru.description="Служит для указания дат"
   shortdescription="Start_Data"
