@@ -12,13 +12,13 @@
   <group name="Annotation">
     <item name="Даты" type="node,closedway,multipolygon" preset_name_label="true" icon="Data32.svg">
       <space/>
-      <text key="start_date" text="общий тег не имеющий конкретики" match="key"/>
-      <text key="sanctified_date" text="освящения" match="key"/>
-      <text key="start_of_construction_date" text="начало строительства" match="key"/>
-	  <text key="completion_of_construction_date" text="завершение строительства" match="key"/>
-	  <text key="commissioning_date" text="ввод в эксплуатацию" match="key"/>
-	  <text key="opening_date" text="ожидаемого события" match="key"/>
-	  <text key="design:ref" text="типовая серия здания" match="key"/>
+      <text key="start_date" text="общий тег не имеющий конкретики" uk.text="загальний тег без конкретики" match="key"/>
+      <text key="sanctified_date" text="освящения" uk.text="дата освячення" match="key"/>
+      <text key="start_of_construction_date" text="начало строительства" uk.text="дата початку будівництва" match="key"/>
+	  <text key="completion_of_construction_date" text="завершение строительства" uk.text="дата кінця будівництва" match="key"/>
+	  <text key="commissioning_date" text="ввод в эксплуатацию" uk.text="дата введення в експлуатацію" match="key"/>
+	  <text key="opening_date" text="ожидаемого события" uk.text="дата відкриття" match="key"/>
+	  <text key="design:ref" text="типовая серия здания" uk.text="типова серія будівлі" match="key"/>
 	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:start_date"/> 
 	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:opening_date"/>
 	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
