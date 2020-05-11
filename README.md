@@ -1,4 +1,4 @@
-# Даты ![icon](https://github.com/Sowa1980/Start_Data_preset/blob/master/Data32.png) 
+# ![icon](https://github.com/Sowa1980/Start_Data_preset/blob/master/Data32.png) Даты 
 Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), служит для указания реквизитов организации ИНН, ОГРН, КПП, ОКПО, ОКОГУ, ОКОПФ
 ## Основана [на вики страницы](https://wiki.openstreetmap.org/wiki/RU:Key:start_date, https://wiki.openstreetmap.org/wiki/RU:Key:opening_date)
 ### Установка
