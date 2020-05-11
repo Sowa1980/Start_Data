@@ -3,9 +3,9 @@
   author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
   link="https://wiki.openstreetmap.org/wiki/RU:Key:start_date"
   icon="Data32.svg"
-  description="Start_Data"
+  description="Start_Data_preset"
   ru.description="Служит для указания дат"
-  shortdescription="Start_Data"
+  shortdescription="Start_Data_preset"
   ru.shortdescription="Старт даты"
   version="0.2_2020-04.10">
                     
