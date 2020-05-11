@@ -1,6 +1,6 @@
 # ![icon](https://github.com/Sowa1980/Start_Data_preset/blob/master/Data32.png) Даты 
 Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), служит для указания дат.
-## Основана на вики страницах [1](https://wiki.openstreetmap.org/wiki/RU:Key:start_date,) [2](https://wiki.openstreetmap.org/wiki/RU:Key:opening_date) [3](https://wiki.openstreetmap.org/wiki/RU:Key:check_date)и часто используемых тегов в OSM сообществе.
+## Основана на вики страницах [1](https://wiki.openstreetmap.org/wiki/RU:Key:start_date,) [2](https://wiki.openstreetmap.org/wiki/RU:Key:opening_date) [3](https://wiki.openstreetmap.org/wiki/RU:Key:check_date) и часто используемых тегов в OSM сообществе.
 ### Языки локализации: 
 Русский, Украинский.
 ### Установка
