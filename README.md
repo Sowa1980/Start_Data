@@ -1,6 +1,6 @@
 # ![icon](https://github.com/Sowa1980/Start_Data_preset/blob/master/Data32.png) Даты строительство
-Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), служит для указания дат.
-## Основана на вики страницах: [1](https://wiki.openstreetmap.org/wiki/RU:Key:start_date,) , [2](https://wiki.openstreetmap.org/wiki/RU:Key:opening_date) , [3](https://wiki.openstreetmap.org/wiki/RU:Key:check_date) , [4](https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture)  и часто используемых тегов в OSM сообществе. [Посмотреть заготовку](https://github.com/Sowa1980/Start_Data_preset/blob/master/Start_Data_skrin_RU.png) 
+Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), служит для указания дат.  [Посмотреть заготовку](https://github.com/Sowa1980/Start_Data_preset/blob/master/Start_Data_skrin_RU.png) 
+## Основана на вики страницах: [1](https://wiki.openstreetmap.org/wiki/RU:Key:start_date,) , [2](https://wiki.openstreetmap.org/wiki/RU:Key:opening_date) , [3](https://wiki.openstreetmap.org/wiki/RU:Key:check_date) , [4](https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture)  и часто используемых тегов в OSM сообществе.
 ### Языки локализации: 
 Русский, Украинский.
 ### Установка
