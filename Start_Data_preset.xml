@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
+  link="https://wiki.openstreetmap.org/wiki/RU:Key:start_date https://wiki.openstreetmap.org/wiki/RU:Key:opening_date https://wiki.openstreetmap.org/wiki/RU:Key:check_date https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture"
+  icon="Data32.svg"
+  
+  description="Start_Data_preset"
+  shortdescription="Start_Data_preset"
+  
+  ru.description="Служит для указания дат строительства"
+  ru.shortdescription="Даты строительство"
+  
+  uk.description="Служить для вказівки дат будівництва"
+  uk.shortdescription="Дати будівництво"
+  
+  be.description="Служыць для ўказанні дат будаўніцтва"
+  be.shortdescription="даты будаўніцтва"
+  
+  de.description="Zeigt die Baudaten an"
+  de.shortdescription="Baudaten"
+  
+  fr.description="Indique les dates de construction"
+  fr.shortdescription="Dates de construction"
+  
+  it.description="Indica le date di costruzione"
+  it.shortdescription="Date di costruzione"
+  
+  
+  version="0.3_2020-05.13">
+                    
+  <group name="Annotation">
+    <item name="Даты строительство" uk.name="Дати будівництво" be.name="даты будаўніцтва" de.name="Baudaten" fr.name="Dates de construction" it.name="Date di costruzione" type="node,closedway,multipolygon" preset_name_label="true" icon="Data32.svg">
+	<space/>
+	  <text key="start_date" text="Общий тег даты не имеющий конкретики" uk.text="Загальний тег дата без конкретики" be.text="Агульны тэг даты які не мае канкрэтыкі" de.text="Generisches Datums-Tag" fr.text="Étiquette de date générique" it.text="Tag data generico" match="key"/>
+	  <space/>
+	  <label text="Дата:" uk.text="Дата:" be.text="Дата:" de.text="Datum:" fr.text="Date:" it.text="L'appuntamento:"/>
+      <text key="sanctified_date" text="освящения" uk.text="Дата освячення" be.text="асвячэння" de.text="Weihe" fr.text="consécration" it.text="consacrazione" match="key"/>
+      <text key="start_of_construction_date" text="начала строительства" uk.text="початку будівництва" be.text="пачатак будаўніцтва" de.text="Baubeginn" fr.text="début de la construction" it.text="inizio della costruzione" match="key"/>
+	  <text key="completion_of_construction_date" text="завершения строительства" uk.text="кінця будівництва" be.text="завяршэнне будаўніцтва" de.text="Fertigstellung der Bauarbeiten" fr.text="achèvement de la construction" it.text="completamento della costruzione" match="key"/>
+	  <text key="commissioning_date" text="ввода в эксплуатацию" uk.text="введення в експлуатацію" be.text="увод у эксплуатацыю" de.text="Inbetriebnahme" fr.text="introduction à l'exploitation" it.text="intro per sfruttamento" match="key"/>
+	  <text key="contractual_construction_time" text="договорные сроки строительства" uk.text="Договірні терміни будівництва" be.text="дагаворныя тэрміны будаўніцтва" de.text="Vertragliche Bauzeit" fr.text="temps de construction contractuel" it.text="tempo di costruzione contrattuale" match="key"/>
+	  <text key="opening_date" text="приблизительного завершения строительства" uk.text="Орієнтовне завершення будівництва" be.text="Прыблізнага завяршэння будаўніцтва" de.text="Vorraussichtlicher Abschluss" fr.text="achèvement approximatif" it.text="completamento approssimativo" match="key"/>
+	  <text key="check_date" text="проверки актуальности информации" uk.text="Перевірка відповідності інформації" be.text="Праверкі актуальнасці інфармацыі" de.text="Überprüft die Relevanz von Informationen" fr.text="vérifier la pertinence des informations" it.text="verifica della pertinenza delle informazioni" match="key"/>
+	  <space/>
+	  <text key="developer" text="Застройщик" uk.text="Забудовник" be.text="забудоўшчык" de.text="Entwickler" fr.text="Développeur" it.text="Sviluppatore" match="key"/>
+	  <text key="architect_name" text="Архитектор" uk.text="Архітектор" be.text="Архітэктар" de.text="Architekt" fr.text="Architecte" it.text="Architetto" match="key"/>
+	  <text key="sculptor_name" text="Скульптор" uk.text="Скульптор" be.text="Скульптар" de.text="Bildhauer" fr.text="Sculpteur" it.text="Scultore" match="key"/>
+	  <text key="artist_name" text="Художник" uk.text="Художник" be.text="Мастак" de.text="Künstler" fr.text="L'artiste" it.text="Artista" match="key"/>
+	  <space/>
+	  <combo key="building:architecture" text="Архитектурный стиль" uk.text="Архітектурний стиль" be.text="Архітэктурны стыль" de.text="Architektonischer Stil" fr.text="Style architectural" it.text="Stile architettonico" match="key">
+	  <list_entry value="romanesque" />
+	  <list_entry value="gothic" />
+	  <list_entry value="renaissance" />
+	  <list_entry value="mannerism" />
+	  <list_entry value="baroque" />
+	  <list_entry value="rococo"/>
+	  <list_entry value="neoclassicism" />
+	  <list_entry value="empire" />
+	  <list_entry value="pseudo-russian" />
+	  <list_entry value="eclectic" />
+	  <list_entry value="neo-gothic" />
+	  <list_entry value="pseudo-gothic" />
+	  <list_entry value="russian_gothic" />
+	  <list_entry value="art_nouveau" />
+	  <list_entry value="modern" />
+	  <list_entry value="constructivism" />
+	  <list_entry value="stalinist_neoclassicism" />
+	  <list_entry value="postmodern" />
+	  <list_entry value="contemporary" />
+	  </combo>
+	  <text key="design:ref" text="Типовая серия здания" uk.text="Типова серія будівлі" be.text="Тыпавая серыя будынка" de.text="Gebäudeserie" fr.text="Série de bâtiments" it.text="Serie di edifici" match="key"/>
+	  <space/>
+	  <label text="Даты следует записывать в формате ISO 8601, т. е. ГГГГ-ММ-ДД." uk.text="Дати слід записувати у форматі ISO 8601, т. е. ГГГГ-ММ-ДД." be.text="Даты варта запісваць у фармаце ISO 8601, т. е. ГГГГ-ММ-ДД." de.text="Daten sollten im Format geschrieben werden ISO 8601, т. е. ГГГГ-ММ-ДД." fr.text="Les dates doivent être écrites dans le format ISO 8601, т. е. ГГГГ-ММ-ДД." it.text="Le date devono essere scritte nel formato ISO 8601, т. е. ГГГГ-ММ-ДД."/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:start_date"/> 
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:opening_date"/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:check_date"/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture"/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+    </item>
+  </group>
+</presets> 
