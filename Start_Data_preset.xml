@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
+  link="https://wiki.openstreetmap.org/wiki/RU:Key:start_date https://wiki.openstreetmap.org/wiki/RU:Key:opening_date https://wiki.openstreetmap.org/wiki/RU:Key:check_date https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture https://wiki.openstreetmap.org/wiki/RU%3AKey%3Abuilding%3Acondition"
+  icon="Data32.svg"
+  
+  description="Start_Data_preset"
+  shortdescription="Start_Data_preset"
+  
+  ru.description="Служит для указания дат строительства"
+  ru.shortdescription="Даты строительство"
+  
+  uk.description="Служить для вказівки дат будівництва"
+  uk.shortdescription="Дати будівництво"
+  
+  be.description="Служыць для ўказанні дат будаўніцтва"
+  be.shortdescription="даты будаўніцтва"
+  
+  de.description="Zeigt die Baudaten an"
+  de.shortdescription="Baudaten"
+  
+  fr.description="Indique les dates de construction"
+  fr.shortdescription="Dates de construction"
+  
+  it.description="Indica le date di costruzione"
+  it.shortdescription="Date di costruzione"
+  
+  pt.description="Indica datas de construção."
+  pt.shortdescription="Datas de construção"
+  
+  
+  version="0.4_2020-05.16">
+                    
+  <group name="Annotation">
+    <item name="Даты строительство" uk.name="Дати будівництво" be.name="даты будаўніцтва" de.name="Baudaten" fr.name="Dates de construction" it.name="Date di costruzione" pt.name="Datas de construção" type="node,closedway,multipolygon,relation,relation types" preset_name_label="true" icon="Data32.svg">
+	<space/>
+	  <text key="start_date" text="Общий тег даты не имеющий конкретики" uk.text="Загальний тег дата без конкретики" be.text="Агульны тэг даты які не мае канкрэтыкі" de.text="Generisches Datums-Tag" fr.text="Étiquette de date générique" it.text="Tag data generico" pt.text="Tag de data genérica" match="key"/>
+	  <space/>
+	  <label text="Дата:" uk.text="Дата:" be.text="Дата:" de.text="Datum:" fr.text="Date:" it.text="L'appuntamento:" pt.text="L'A data:"/>
+      <text key="sanctified_date" text="освящения" uk.text="Дата освячення" be.text="асвячэння" de.text="Weihe" fr.text="consécration" it.text="consacrazione" pt.text="consagração" match="key"/>
+      <text key="start_of_construction_date" text="начала строительства" uk.text="початку будівництва" be.text="пачатак будаўніцтва" de.text="Baubeginn" fr.text="début de la construction" it.text="inizio della costruzione" pt.text="início da construção" match="key"/>
+	  <text key="completion_of_construction_date" text="завершения строительства" uk.text="кінця будівництва" be.text="завяршэнне будаўніцтва" de.text="Fertigstellung der Bauarbeiten" fr.text="achèvement de la construction" it.text="completamento della costruzione" pt.text="conclusão da construção" match="key"/>
+	  <text key="commissioning_date" text="ввода в эксплуатацию" uk.text="введення в експлуатацію" be.text="увод у эксплуатацыю" de.text="Inbetriebnahme" fr.text="introduction à l'exploitation" it.text="intro per sfruttamento" pt.text="introdução para exploração" match="key"/>
+	  <text key="contractual_construction_time" text="договорные сроки строительства" uk.text="Договірні терміни будівництва" be.text="дагаворныя тэрміны будаўніцтва" de.text="Vertragliche Bauzeit" fr.text="temps de construction contractuel" it.text="tempo di costruzione contrattuale" pt.text="tempo contratual de construção" match="key"/>
+	  <text key="opening_date" text="приблизительного завершения строительства" uk.text="Орієнтовне завершення будівництва" be.text="Прыблізнага завяршэння будаўніцтва" de.text="Vorraussichtlicher Abschluss" fr.text="achèvement approximatif" it.text="completamento approssimativo" pt.text="conclusão aproximada" match="key"/>
+	  <text key="check_date" text="проверки актуальности информации" uk.text="Перевірка відповідності інформації" be.text="Праверкі актуальнасці інфармацыі" de.text="Überprüft die Relevanz von Informationen" fr.text="vérifier la pertinence des informations" it.text="verifica della pertinenza delle informazioni" pt.text="verificar a relevância das informações" match="key"/>
+	  <space/>
+	  <text key="developer" text="Застройщик" uk.text="Забудовник" be.text="забудоўшчык" de.text="Entwickler" fr.text="Développeur" it.text="Sviluppatore" pt.text="Desenvolvedor" match="key"/>
+	  <text key="architect_name" text="Архитектор" uk.text="Архітектор" be.text="Архітэктар" de.text="Architekt" fr.text="Architecte" it.text="Architetto" pt.text="Arquiteto" match="key"/>
+	  <text key="sculptor_name" text="Скульптор" uk.text="Скульптор" be.text="Скульптар" de.text="Bildhauer" fr.text="Sculpteur" it.text="Scultore" pt.text="Escultor" match="key"/>
+	  <text key="artist_name" text="Художник" uk.text="Художник" be.text="Мастак" de.text="Künstler" fr.text="L'artiste" it.text="Artista" pt.text="Artista" match="key"/>
+	  <text key="carver_name" text="Резчик" uk.text="Різьбяр" be.text="Разьбяр" de.text="Schnitzer" fr.text="Coupeur" it.text="intagliatore" pt.text="Carver" match="key"/>
+	  <space/>
+	  <label text="Историческое сооружение:" uk.text="Iсторична споруда:" be.text="гістарычнае збудаванне:" de.text="Historisches Gebäude:" fr.text="Monument historique:" it.text="Edificio storico:" pt.text="Prédio histórico:"/>
+	  <combo key="historic" text="Здание" ru.text="Здание" uk.text="Будівля" be.text="Будынак" de.text="Gebäude" fr.text="Bâtiment" it.text="Costruzione" pt.text="Construção" match="key">
+	  <list_entry value="yes" ru.display_value="да" />
+	  <list_entry value="ruins" ru.display_value="развалины(руины)" />
+	  <list_entry value="building" ru.display_value="здание" />
+	  <list_entry value="roof" ru.display_value="крыша или навес" />
+	  <list_entry value="cathedral" ru.display_value="собор" />
+	  <list_entry value="temple" ru.display_value="храм" />
+	  <list_entry value="church" ru.display_value="церковь" />
+	  <list_entry value="chapel" ru.display_value="часовня" />
+	  <list_entry value="mosque" ru.display_value="мечеть" />
+	  <list_entry value="synagogue" ru.display_value="синагога" />
+	  <list_entry value="manor" ru.display_value="усадьба" />
+      <list_entry value="university" ru.display_value="университет" />
+	  <list_entry value="school" ru.display_value="школа" />
+	  <list_entry value="hospital" ru.display_value="больница" />
+	  <list_entry value="public" ru.display_value="общественное" />
+	  <list_entry value="office" ru.display_value="офис" />
+	  <list_entry value="castle" ru.display_value="замки - здания (обычно укрепленные)" />
+	  <list_entry value="train_station" ru.display_value="железнодорожный вокзал" />
+	  <list_entry value="fire_station" ru.display_value="пожарная часть" />
+	  <list_entry value="retail" ru.display_value="розничная торговля" />
+	  <list_entry value="manufacture" ru.display_value="производственное" />
+	  <list_entry value="industrial" ru.display_value="промышленное" />
+	  <list_entry value="industrial" ru.display_value="служебная постройка" />
+	  <list_entry value="stable" ru.display_value="конюшня" />
+	  <list_entry value="warehouse" ru.display_value="склад" />
+	  </combo>
+	  <combo key="building:architecture" text="Архитектурный стиль" uk.text="Архітектурний стиль" be.text="Архітэктурны стыль" de.text="Architektonischer Stil" fr.text="Style architectural" it.text="Stile architettonico" pt.text="Estilo arquitetônico" match="key">
+	  <list_entry value="romanesque" ru.display_value="Романская" />
+	  <list_entry value="gothic" ru.display_value="Готическая" />
+	  <list_entry value="renaissance" ru.display_value="Возрождения" />
+	  <list_entry value="mannerism" ru.display_value="Маньеризм" />
+	  <list_entry value="baroque" ru.display_value="Барокко" />
+	  <list_entry value="rococo" ru.display_value="Рококо" /> 
+	  <list_entry value="neoclassicism" ru.display_value="Классицизм" />
+	  <list_entry value="empire" ru.display_value="Ампир" />
+	  <list_entry value="pseudo-russian" ru.display_value="Псевдорусский стиль" />
+	  <list_entry value="eclectic" ru.display_value="Эклектика_(архитектура)" />
+	  <list_entry value="neo-gothic" ru.display_value="Неоготика" />
+	  <list_entry value="pseudo-gothic" ru.display_value="Русская псевдоготика" />
+	  <list_entry value="russian_gothic" />
+	  <list_entry value="art_nouveau" ru.display_value="Модерн" />
+	  <list_entry value="modern" ru.display_value="Модернизм" />
+	  <list_entry value="constructivism" ru.display_value="Конструктивизм" />
+	  <list_entry value="stalinist_neoclassicism" ru.display_value="Сталинская" />
+	  <list_entry value="postmodern" ru.display_value="Постмодернизма" />
+	  <list_entry value="contemporary" ru.display_value="Современная архитектура" />
+	  </combo>
+	  <text key="design:ref" text="Типовая серия здания" uk.text="Типова серія будівлі" be.text="Тыпавая серыя будынка" de.text="Gebäudeserie" fr.text="Série de bâtiments" it.text="Serie di edifici" pt.text="Série de construção" match="key"/>
+	  <space/>
+	   <combo key="building:condition" text="Состояние здания" uk.text="Стан будівлі" be.text="Стан будынка" de.text="Gebäudezustand" fr.text="État du bâtiment" it.text="Condizioni dell'edificio" pt.text="Condição de construção" match="key">
+	  <list_entry value="preserved" />
+	  <list_entry value="renovated" />
+	  <list_entry value="reconstructed" />
+	  <list_entry value="partly_ruinous" />
+	  <list_entry value="mainly_ruinous" />
+	  <list_entry value="completely_ruinous" />
+	  <list_entry value="recognizable_remains" />
+	  <list_entry value="ruinous" />
+	  <list_entry value="good" />
+	  <list_entry value="average" />
+	  <list_entry value="poor" />
+	  </combo>
+	  <space/>
+	  <label text="Даты следует записывать в формате ISO 8601, т. е. ГГГГ-ММ-ДД." uk.text="Дати слід записувати у форматі ISO 8601, т. е. ГГГГ-ММ-ДД." be.text="Даты варта запісваць у фармаце ISO 8601, т. е. ГГГГ-ММ-ДД." de.text="Daten sollten im Format geschrieben werden ISO 8601, т. е. ГГГГ-ММ-ДД." fr.text="Les dates doivent être écrites dans le format ISO 8601, т. е. ГГГГ-ММ-ДД." it.text="Le date devono essere scritte nel formato ISO 8601, т. е. ГГГГ-ММ-ДД." pt.text="As datas devem ser escritas no formato ISO 8601, т. е. ГГГГ-ММ-ДД."/>
+	  <combo key="building" text="building" ru.text="Здание" match="key"/>
+	  <combo key="building:part" text="building:part" ru.text="Часть здание" match="key"/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:start_date"/> 
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:opening_date"/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:check_date"/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture"/>
+	  <link href="https://wiki.openstreetmap.org/wiki/RU%3AKey%3Abuilding%3Acondition"/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+    </item>
+  </group>
+</presets> 
