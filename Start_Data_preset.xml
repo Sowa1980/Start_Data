@@ -120,12 +120,8 @@
 	  <space/>
 	  <combo key="building" text="building" ru.text="Здание" match="key"/>
 	  <combo key="building:part" text="building:part" ru.text="Часть здание" match="key"/>
-	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:start_date"/> 
-	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:opening_date"/>
-	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:check_date"/>
-	  <link href="https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture"/>
-	  <link href="https://wiki.openstreetmap.org/wiki/RU%3AKey%3Abuilding%3Acondition"/>
 	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="github" ru.text="github"/>
     </item>
   </group>
 </presets> 
