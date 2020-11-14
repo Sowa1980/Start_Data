@@ -121,7 +121,7 @@
 	  <combo key="building" text="building" ru.text="Здание" match="key"/>
 	  <combo key="building:part" text="building:part" ru.text="Часть здание" match="key"/>
 	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
-	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="github" ru.text="github"/>
+	  <link href="https://github.com/Sowa1980/Start_Data_preset" text="github" ru.text="github"/>
     </item>
   </group>
 </presets> 
