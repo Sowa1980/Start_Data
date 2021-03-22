@@ -29,7 +29,7 @@
   pt.shortdescription="Datas de construção"
   
   
-  version="0.4_2020-05.16">
+  version="0.4_2020-05-16">
                     
   <group name="Annotation">
     <item name="Даты строительство" uk.name="Дати будівництво" be.name="даты будаўніцтва" de.name="Baudaten" fr.name="Dates de construction" it.name="Date di costruzione" pt.name="Datas de construção" type="node,closedway,multipolygon,relation,relation types" preset_name_label="true" icon="Data32.svg">
